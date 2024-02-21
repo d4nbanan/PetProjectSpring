@@ -1,9 +1,9 @@
 package com.example.PetProjectSpring.auth.dto;
 
-import com.example.PetProjectSpring.auth.types.Roles;
+import java.util.List;
 
 public class TokenPayloadDto {
     public String sessionId;
-    public Roles roles;
+    public List<String> roles;
     public String sub;
 }
